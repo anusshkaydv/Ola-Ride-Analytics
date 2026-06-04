@@ -150,8 +150,3 @@ This dashboard enables stakeholders to:
 
 ---
 
-## Author
-
-Anushka Yadav
-
-Aspiring Data Analyst | Power BI | SQL | Excel | Python
