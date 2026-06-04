@@ -2,30 +2,48 @@
 
 ## Project Overview
 
-This project is an end-to-end Power BI dashboard built using a dataset containing more than 20,000 ride booking records and 19 business-related attributes. The dashboard provides actionable insights into ride demand, revenue generation, booking success, cancellations, vehicle performance, and customer behavior.
+This project is an end-to-end Data Analytics solution developed using SQL, Excel, and Power BI. The dashboard analyzes over 20,000 ride-booking records and 19 business attributes to uncover insights related to ride demand, revenue generation, booking performance, vehicle utilization, cancellations, and customer satisfaction.
 
-The objective of this project is to transform raw ride-booking data into meaningful business insights through interactive visualizations and KPI-driven analysis.
+The objective of this project is to transform raw ride-booking data into actionable business insights through data analysis, KPI development, and interactive visualizations.
+
+---
+
+## Project Objectives
+
+* Analyze overall ride-booking performance.
+* Monitor booking success and cancellation trends.
+* Evaluate revenue generation across multiple dimensions.
+* Compare vehicle category performance.
+* Identify high-value customers.
+* Track customer and driver satisfaction metrics.
+* Support data-driven business decision-making.
 
 ---
 
 ## Tools & Technologies
 
+* SQL
+* Microsoft Excel
 * Power BI
 * DAX (Data Analysis Expressions)
-* Microsoft Excel
+* Data Cleaning
+* Data Transformation
 * Data Modeling
-* Data Cleaning & Transformation
-* Business Intelligence & Dashboarding
+* Business Intelligence
+* Data Visualization
 
 ---
 
 ## Dataset Information
 
-* Total Records: 20,000+
-* Total Columns: 19
-* Domain: Ride Sharing / Transportation Analytics
+| Attribute     | Details                  |
+| ------------- | ------------------------ |
+| Domain        | Ride Sharing Analytics   |
+| Total Records | 20,000+                  |
+| Total Columns | 19                       |
+| Data Source   | Ola Ride Booking Dataset |
 
-### Key Fields
+### Key Features Included
 
 * Booking ID
 * Booking Date
@@ -37,60 +55,97 @@ The objective of this project is to transform raw ride-booking data into meaning
 * Ride Distance
 * Customer Rating
 * Driver Rating
-* Cancellation Reasons
 * Customer ID
+* Cancellation Reasons
+* Vehicle Information
 
 ---
 
-## Dashboard Pages
+## SQL Analysis
+
+SQL was used to perform exploratory data analysis and answer business questions before dashboard development.
+
+### Business Questions Solved
+
+* Total number of bookings
+* Successful vs cancelled rides
+* Revenue generated from successful rides
+* Vehicle-wise revenue analysis
+* Top customers by booking value
+* Payment method contribution analysis
+* Average ride distance analysis
+* Booking status distribution
+* Customer rating analysis
+* Driver rating analysis
+
+### SQL Concepts Applied
+
+* SELECT
+* WHERE
+* GROUP BY
+* ORDER BY
+* Aggregate Functions
+* COUNT()
+* SUM()
+* AVG()
+* Filtering & Sorting
+* Business KPI Calculations
+
+---
+
+## Power BI Dashboard Pages
 
 ### 1. Overview Dashboard
 
-Provides a high-level summary of overall business performance.
+Provides a high-level business summary.
 
-Key Metrics:
+#### KPIs
 
 * Total Bookings
 * Revenue from Successful Rides
 * Success Rate
 * Cancellation Rate
-* Ride Demand Trends
-* Booking Status Distribution
+
+#### Visualizations
+
+* Booking Status Breakdown
+* Ride Demand Trend
+* Date-wise Analysis
 
 ---
 
 ### 2. Vehicle Type Analysis
 
-Analyzes vehicle-wise performance across different ride categories.
+Analyzes performance across vehicle categories.
 
-Insights:
+#### Insights
 
 * Total Booking Value by Vehicle Type
 * Successful Booking Value
 * Average Distance Travelled
 * Total Distance Travelled
-* Vehicle Category Performance Comparison
+* Vehicle Category Comparison
 
 ---
 
 ### 3. Revenue Analysis
 
-Focuses on revenue generation and customer contribution.
+Evaluates revenue performance and customer contribution.
 
-Insights:
+#### Insights
 
 * Revenue by Payment Method
-* Top Customers by Revenue
-* Revenue Performance Analysis
-* Customer Contribution Trends
+* Top 5 Customers
+* Revenue Trends
+* Revenue Contribution Analysis
 
 ---
 
 ### 4. Cancellation Analysis
 
-Examines ride cancellations and operational challenges.
+Examines booking cancellations and operational inefficiencies.
 
-Insights:
+#### Insights
 
 * Customer Cancellations
 * Driver Cancellations
@@ -102,38 +157,60 @@ Insights:
 
 ### 5. Ratings Analysis
 
-Evaluates customer and driver satisfaction metrics.
+Measures service quality and user satisfaction.
 
-Insights:
+#### Insights
 
-* Customer Ratings
-* Driver Ratings
+* Customer Rating Analysis
+* Driver Rating Analysis
 * Rating Distribution
-* Service Quality Trends
-
----
-
-## Key Business Insights
-
-* Identified the most profitable vehicle categories.
-* Analyzed ride demand patterns over time.
-* Measured booking success and cancellation rates.
-* Evaluated customer spending behavior.
-* Compared payment methods and revenue contribution.
-* Assessed customer satisfaction using rating analysis.
+* Satisfaction Trends
 
 ---
 
 ## DAX Measures Implemented
 
-Examples:
+### Booking Metrics
 
 * Total Bookings
 * Successful Bookings
-* Revenue from Successful Rides
+* Cancelled Bookings
+
+### Revenue Metrics
+
+* Total Revenue
+* Successful Ride Revenue
+* Average Revenue Per Ride
+
+### Performance Metrics
+
 * Success Rate
 * Cancellation Rate
-* Average Revenue per Ride
+* Average Ride Distance
+
+---
+
+## Key Business Insights Generated
+
+* Identified the most profitable vehicle categories.
+* Measured booking success and cancellation performance.
+* Analyzed ride demand trends over time.
+* Evaluated payment method contribution to revenue.
+* Identified top revenue-generating customers.
+* Compared vehicle performance using revenue and distance metrics.
+* Assessed customer and driver satisfaction through ratings.
+
+---
+
+## Dashboard Features
+
+* Interactive Filters & Slicers
+* Multi-Page Navigation
+* KPI Cards
+* Dynamic Visualizations
+* Business-Oriented Metrics
+* Responsive Dashboard Layout
+* Vehicle-Type Performance Analysis
 
 ---
 
@@ -141,12 +218,21 @@ Examples:
 
 This dashboard enables stakeholders to:
 
-* Monitor operational performance
-* Track ride demand trends
-* Improve customer experience
-* Analyze revenue generation
-* Understand cancellation patterns
-* Support data-driven business decisions
+* Monitor operational efficiency
+* Improve booking success rates
+* Reduce cancellations
+* Track revenue performance
+* Analyze customer behavior
+* Support strategic business decisions
 
 ---
 
+### Skills
+
+* SQL
+* Power BI
+* Excel
+* Python
+* Data Visualization
+* Data Analytics
+* Business Intelligence
