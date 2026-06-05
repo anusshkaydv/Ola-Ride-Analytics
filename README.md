@@ -113,7 +113,7 @@ Provides a high-level business summary.
 * Date-wise Analysis
   ### Overview Dashboard
 
-![Overview](Images/Screenshot 2026-06-05 154918.png)
+![Overview](Images/Screenshot%202026-06-05%20154918.png)
 
 ---
 
