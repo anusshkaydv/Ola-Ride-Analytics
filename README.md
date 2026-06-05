@@ -128,7 +128,9 @@ Analyzes performance across vehicle categories.
 * Average Distance Travelled
 * Total Distance Travelled
 * Vehicle Category Comparison
+  ### Overview Dashboard
 
+![Overview](Images/Screenshot%202026-06-05%20154953.png)
 ---
 
 ### 3. Revenue Analysis
@@ -141,7 +143,9 @@ Evaluates revenue performance and customer contribution.
 * Top 5 Customers
 * Revenue Trends
 * Revenue Contribution Analysis
+  ### Overview Dashboard
 
+![Overview](Images/Screenshot%202026-06-05%20155717.png)
 ---
 
 ### 4. Cancellation Analysis
@@ -155,7 +159,9 @@ Examines booking cancellations and operational inefficiencies.
 * Driver Not Found Cases
 * Cancellation Distribution
 * Cancellation Rate Analysis
+  ### Overview Dashboard
 
+![Overview](Images/Screenshot%202026-06-05%20155731.png)
 ---
 
 ### 5. Ratings Analysis
@@ -168,7 +174,9 @@ Measures service quality and user satisfaction.
 * Driver Rating Analysis
 * Rating Distribution
 * Satisfaction Trends
+  ### Overview Dashboard
 
+![Overview](Images/Screenshot%202026-06-05%20155742.png)
 ---
 
 ## DAX Measures Implemented
