@@ -237,4 +237,8 @@ This dashboard enables stakeholders to:
 * Data Analytics
 * Business Intelligence
 
+  ---
+  
+ ### Demo Video
+👉 Watch the dashboard demo here:
   https://drive.google.com/file/d/1BAZw3y9dZSHTdqTR-CcchR7nHphPsOii/view?usp=sharing
