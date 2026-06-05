@@ -111,6 +111,9 @@ Provides a high-level business summary.
 * Booking Status Breakdown
 * Ride Demand Trend
 * Date-wise Analysis
+  ### Overview Dashboard
+
+![Overview](Images/Screenshot 2026-06-05 154918.png)
 
 ---
 
